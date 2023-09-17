@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+    <h1 >Alarm Clock and Timer</h1>
+    <img src="https://static.vecteezy.com/system/resources/previews/003/211/573/original/red-alarm-clock-sound-wake-up-time-icon-flat-design-orange-background-free-vector.jpg">
+    <h1>Current Time</h1>
+    <div id="current-time"></div>
+    <br>
+    <input id="alarmTime" type="datetime-local">
+    <button id="alarmButton" onclick="setAlarm()">Set Alarm</button>
+    <br><br>
+    <div id="alarmOptions" >
+        <button onclick="snooze()">Snooze 5 minutes</button>
+        <button onclick="stopAlarm()">Stop Alarm</button><br>
+    <p id="display"></p>
+</div>
+</center>
+</body>
+
+</html>
